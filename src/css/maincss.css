@@ -55,7 +55,7 @@ li{
     background-color: gray;
     height: 300px;
     opacity: 50%;
-
+    align-items: center;
 }
 
 #random-cat-fact{
@@ -254,4 +254,103 @@ a:hover{
   .popup button:hover{
     background-color: white;
     color: black;
+  }
+
+  #extracont{
+    color: white;
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    font-family: 40px;
+  }
+
+  #catfact-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 150px;
+  }
+
+  #cat-fact{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  #get-fact{
+    height: 50px;
+    cursor: pointer;
+    background-color: darkred;
+    color: white;
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    border: none;
+    font-size: 25px;
+  }
+
+  #wholecontainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #fact-gen-btn{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  #fact-desc{
+    color: white;
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+  }
+
+  #get-fact:hover{
+    background-color: white;
+    color: black;
+    height: 60px;
+    width: 155px;
+  }
+
+  #footer-hyperlinks{
+    display: flex;
+    justify-content: center;
+  }
+
+  .hyperlink{
+    margin: 10px;
+    color: white;
+    font-family: "Funnel Display", serif;
+    font-optical-sizing: auto;
+    font-weight: bold;
+    font-style: normal;
+    text-align: center;
+    text-decoration: none;
+  }
+
+  .hyperlink:hover{
+    color: black;
+  }
+
+  #footer-img{
+    width: 350px;
+    height: 170px;
+  }
+
+  #footerimg-container{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
   }
